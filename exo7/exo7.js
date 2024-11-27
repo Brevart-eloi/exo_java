@@ -1,11 +1,8 @@
-var mavarint = prompt('entrez une valeur') ;
-var resultat = mavarint
-function() {
-    for(let i=1;i<mavarint;i++)
-    {
-        resultat+=i
-    }
+
+    function addition(param1,param2) {
+    var resultat = param1+param2;
+        return resultat;
+    };
 
 
-    alert(resultat)
-}
+
