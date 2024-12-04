@@ -1,7 +1,10 @@
 function ModifText(letext) {
-    alert("je vais modifier la div")
+    alert("Je vais modifier les divs");
+
+    const divs = document.getElementsByName('lesdivs');
+    
+    divs.forEach(div => {
+        div.textContent = letext;
+    });
 }
-ModifText();
-const div = document.getElementsByName('lesdivs');
-div.textcontent
- = 'Hello';
+ModifText('Hello');
