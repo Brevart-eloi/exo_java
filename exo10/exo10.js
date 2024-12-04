@@ -19,10 +19,10 @@ function UneProcedureQuiEcrit(evenement) {
 
 function UneProcedureQuiChangeLeText(evenement) {
     compteur++;
-    evenement.target.innerHTML = "On m'a cliqué dessus " +compteur+"fois";
+    evenement.target.innerHTML = "On m'a cliqué dessus " +compteur+" fois";
 }
 
 function UneProcedureQuiSurvole(evenement) {
     compteur2++;
-    evenement.target.innerHTML = "On m'a survollé "+compteur2+"fois";
+    evenement.target.innerHTML = "On m'a survollé "+compteur2+" fois";
 }
