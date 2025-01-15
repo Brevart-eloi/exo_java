@@ -13,9 +13,7 @@ function UneProcedureQuiChangeLeText(evenement) {
             return response.json();
         })
         .then(data => {
-            console.log(data); // Affiche le contenu du fichier JSON dans la console
-            // Vous pouvez également afficher le contenu dans la page, par exemple :
-            // document.getElementById("contenuJSON").innerText = JSON.stringify(data, null, 2);
+            console.log(data);
         })
         .catch(error => {
             console.error('Une erreur est survenue lors de la récupération du fichier JSON :', error);
